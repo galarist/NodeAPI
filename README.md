@@ -10,3 +10,13 @@ npm i express mongoose nodemon -g --save-dev dotenv
 DATABASE_URI=<Own Url Here>
 PORT=<Port To Listen>
 ```
+---
+## `.babel` File:
+```
+{
+  "presets": [
+    "env",
+    "stage-0"
+  ]
+}
+```
